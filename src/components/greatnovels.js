@@ -1,6 +1,6 @@
+/* eslint-disable */ 
 import React, { useState } from 'react'
 const GreatNovels = props => {
-
   return (
     <div className="App">
       <h1>Great Novels</h1>
