@@ -17,4 +17,9 @@ export default () => {
     }
     pullData()
   }, [])
+  useEffect(() => {
+    const greatNovels = filtered(greatNovelsData, searchTerm)
+    setFilteredNovels(greatNovels)
+  }, [searchTerm])
+  
 }
