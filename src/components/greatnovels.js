@@ -5,7 +5,7 @@ const GreatNovels = props => {
     <div className="App">
       <h1>Great Novels</h1>
       <input type="text" name="search" onChange={(event) => props.setSearchTerm(event.target.value)}/>
-      {props.greatNovelsAsProps.map(greatNovels => {
+      {props.greatNovelsAsProps.map(greatNovel => {
         return (
           <>
             <div>{greatNovels.title}</div>
