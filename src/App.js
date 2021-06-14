@@ -21,5 +21,12 @@ export default () => {
     const greatNovels = filtered(greatNovelsData, searchTerm)
     setFilteredNovels(greatNovels)
   }, [searchTerm])
-  
+  return (
+    <>
+    <GreatNovels 
+      greatNovelsDataAsProps={filteredNovels}
+      setSearchTerm={setSearchTerm}
+      />
+    </>
+  )
 }
