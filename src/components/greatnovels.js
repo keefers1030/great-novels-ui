@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-const greatNovels = props => {
+const GreatNovels = props => {
 
   return (
     <div className="App">
@@ -16,4 +16,4 @@ const greatNovels = props => {
   )
 }
 
-export default greatNovels
+export default GreatNovels
