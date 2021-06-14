@@ -8,12 +8,11 @@ const GreatNovels = props => {
       {props.greatNovelsAsProps.map(greatNovel => {
         return (
           <>
-            <div>{greatNovels.title}</div>
+            <div>{greatNovel.name}</div>
           </>
         )
       })}
     </div>
   )
 }
-
 export default GreatNovels

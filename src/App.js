@@ -25,7 +25,7 @@ export default () => {
   return (
     <>
     <GreatNovels 
-      greatNovelsDataAsProps={filteredNovels}
+      greatNovelsAsProps={filteredNovels}
       setSearchTerm={setSearchTerm}
       />
     </>
