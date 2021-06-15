@@ -20,7 +20,7 @@
   },
   "scripts": {
     "dev:server": "./node_modules/.bin/env-cmd ./node_modules/.bin/nodemon index.js",
-    "dev:migrate": "./node_modules/.bin/env-cmd ./node_modules/.bin/sequelize db:migrate --env development --config ./config/sequelize.js",
+    "dev:migrate": "./node_modules/.bin/env-cmd ./node_modules/.bin/sequelize db:migrate --env development --config ./configs/sequelize.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

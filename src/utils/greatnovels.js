@@ -7,5 +7,5 @@ export async function pulledData() {
 }
 
 export const filtered = (greatNovelsData, searchTerm) => greatNovelsData.filter(greatNovels => {
-  return greatNovels.name.toLowerCase().includes(searchTerm.toLowerCase())
+  return greatNovels.title.toLowerCase().includes(searchTerm.toLowerCase())
 })

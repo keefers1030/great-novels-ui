@@ -6,9 +6,11 @@ const GreatNovels = props => {
       <h1>Great Novels</h1>
       <input type="text" name="search" onChange={(event) => props.setSearchTerm(event.target.value)}/>
       {props.greatNovelsAsProps.map(greatNovel => {
+          console.log(greatNovel.title)
+
         return (
           <>
-            <div>{greatNovel.name}</div>
+            <div>{greatNovel.title}</div>
           </>
         )
       })}
