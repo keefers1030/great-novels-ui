@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react'
 import './App.css'
 import GreatNovels from './components/greatnovels'
 import { pulledData, filtered } from './utils/greatnovels'
+import book from './book.png'
 
 export default () => {
   const [greatNovelsData, setNovelsData] = useState([])
@@ -24,6 +25,7 @@ export default () => {
   }, [searchTerm])
   return (
     <>
+    <img src={book} alt="Logo" />
     <GreatNovels 
       greatNovelsAsProps={filteredNovels}
       setSearchTerm={setSearchTerm}
